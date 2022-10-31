@@ -30,3 +30,7 @@ for more options.
 #define RGBLED_SPLIT {37,37}
 #define RGBLIGHT_ANIMATIONS
 #define RGBLIGHT_LIMIT_VAL 192 
+#ifdef TAPPING_TERM 
+  #undef TAPPING_TERM
+  #define TAPPING_TERM 300
+#endif
