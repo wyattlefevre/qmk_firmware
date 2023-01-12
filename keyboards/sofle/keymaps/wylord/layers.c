@@ -6,4 +6,5 @@ enum {
   NUM = 3,
   BRACK = 4,
   ARROWS = 5,
+  ARROWSPC = 6,
 };
