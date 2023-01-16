@@ -75,6 +75,7 @@ static void print_status_narrow(unsigned char base, unsigned char phase, char* c
             oled_write_P(PSTR("BRACK"), false);
             break;
         case ARROWS:
+        case ARROWSPC:
             oled_write_P(PSTR("ARROW"), false);
             break;
         default:
